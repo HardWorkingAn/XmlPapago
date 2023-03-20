@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hxsC0QGlfGlqo9/6zp6mST52QawNxqj+M8lMBgvTUkyb5m6NJLlOXvwNBU1eFFWV/lzvwmYiRaJkSSmo7PmCIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Xml_PapagoAPI\\Xml_PapagoAPI\\Xml_PapagoAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <!-- the wise, male empire governor template wanderer-->
+    <string id="UCWna001" text="현명한 {HERO.FIRSTNAME}" />
+    <string id="UCWps001" text="나는 그것에 대해 이야기하는 것을 개의치 않는다." />
+    <string id="UCWba001" text="나는 쿠자이트 국경에 있는 성의 총독이었고 많은 공성전에서 그 성을 성공적으로 방어했다. 번영을 유지할 수 있다는 것과 적들에게 두려움을 느낄 수 있다는 것이 나의 자부심이었다." />
+    <string id="UCWbb001" text="지역 귀족이 질투하는 것처럼 나는 어쩌면 너무 성공적이었을지도 모른다. 그는 내가 그의 실력을 무색하게 할까봐 두려웠다. 그래서 그는 나에게 떠나라고 했고, 그가 찾을 수 있는 어떤 이유로든 나를 감옥에 가둘 것을 제안했다." />
+    <string id="UCWbc001" text="나는 정치에 관심이 없어서 떠나기를 거부했다. 그 결과, 그는 내가 금고에서 금을 훔쳤고, 일부는 내 개인 숙소에 숨겼다고 주장했고, 이 때문에 나는 소지품을 하나도 가지고 있지 않은 채로 떠날 수밖에 없었다." />
+    <string id="UCWr1001" text="이해할 수 있습니다, 선생님." />
+    <string id="UCWr2001" text="그건 당신의 이야기입니다, 아마도 당신은 단순히 옷을 잘 입은 강도일 것입니다." />
+    <string id="UCWbd001" text="나는 내가 두 번째 기회를 가질 수 있기를 바란다. 나는 술집에서 내 시간을 보낼 수 밖에 없고, 찾을 수 있는 모든 일을 할 수 밖에 없다. 만약 내가 관리할 다른 합의를 얻을 수 있다면, 나는 그것을 번영과 안전하게 유지하는 것이 가능하다는 것을 증명할 것이다." />
+    <string id="UCWgb001" text="저는 정착촌과 싸우고 관리하는 방법을 알고 있지만, 엔지니어나 무역업자 일도 큰 어려움 없이 할 수 있습니다." />
+  </strings>
+</base>
