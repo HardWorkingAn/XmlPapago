@@ -24,11 +24,13 @@ namespace Xml_PapagoAPI
             Console.WriteLine(FInd_XmlDirectory);
 
             string XmlFolderName = "xml"; // xml폴더 이름
-
             string path = Path.Combine(FInd_XmlDirectory.ToString(), XmlFolderName); // 하위폴더 xml 폴더 붙이기
             Console.WriteLine(path);
 
-            string FileName = "str_english" + ".xml"; // 변경할 파일 이름
+            // ★★ 파일 이름 넣기 ★★
+            string xmlName = "str_english";  
+
+            string FileName = xmlName + ".xml"; // 확장자 추가
             Console.WriteLine(path + FileName);
             Console.WriteLine(File.Exists(path + FileName)); // 파일의 유무 확인
            
