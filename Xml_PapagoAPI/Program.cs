@@ -13,11 +13,27 @@ namespace Xml_PapagoAPI
         {
             API_ID papagoID = new API_ID(); // api id password 적혀있는 클래스 참조
 
-            string path = "C:\\Users\\user\\Desktop\\papago_test\\xml\\"; // xml 위치
-            string FileName = "std_UsefulCompanions_models" + ".xml"; // 변경할 파일 이름
+            //string basePath = "C:\\Users\\user\\Desktop\\Xml_PapagoAPI\\xml\\"; // xml 위치
+            string current_path = Directory.GetCurrentDirectory(); // 현재 실행파일 path를 저장
+            Console.WriteLine(current_path);
+            DirectoryInfo FInd_XmlDirectory = new DirectoryInfo(current_path); // 실행파일 path 디렉토리를 가져온걸 DirectoryInfo 변수에 대입
+            FInd_XmlDirectory = FInd_XmlDirectory.Parent; // 상위폴더 이동
+            FInd_XmlDirectory = FInd_XmlDirectory.Parent; // 상위폴더 이동
+            FInd_XmlDirectory = FInd_XmlDirectory.Parent; // 상위폴더 이동
+            FInd_XmlDirectory = FInd_XmlDirectory.Parent; // 상위폴더 이동
+            Console.WriteLine(FInd_XmlDirectory);
+
+            string XmlFolderName = "xml"; // xml폴더 이름
+
+            string path = Path.Combine(FInd_XmlDirectory.ToString(), XmlFolderName); // 하위폴더 xml 폴더 붙이기
+            Console.WriteLine(path);
+
+            string FileName = "str_english" + ".xml"; // 변경할 파일 이름
             Console.WriteLine(path + FileName);
             Console.WriteLine(File.Exists(path + FileName)); // 파일의 유무 확인
+           
 
+            /*
             XmlDocument xmlDocument = new XmlDocument(); // xml 파싱을 위한 클래스
             xmlDocument.Load(path + FileName); // 위치 + 파일명
 
@@ -76,8 +92,8 @@ namespace Xml_PapagoAPI
             }
 
             xmlDocument.Save(path + FileName);
+            */
 
-            
         }
     }
 }
