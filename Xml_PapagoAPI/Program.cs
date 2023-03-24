@@ -35,7 +35,7 @@ namespace Xml_PapagoAPI
             Console.WriteLine(File.Exists(path + FileName)); // 파일의 유무 확인
            
 
-            /*
+            
             XmlDocument xmlDocument = new XmlDocument(); // xml 파싱을 위한 클래스
             xmlDocument.Load(path + FileName); // 위치 + 파일명
 
@@ -94,7 +94,7 @@ namespace Xml_PapagoAPI
             }
 
             xmlDocument.Save(path + FileName);
-            */
+            
 
         }
     }
