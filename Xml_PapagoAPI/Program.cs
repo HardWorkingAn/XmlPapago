@@ -23,7 +23,7 @@ namespace Xml_PapagoAPI
             FInd_XmlDirectory = FInd_XmlDirectory.Parent; // 상위폴더 이동
             Console.WriteLine(FInd_XmlDirectory);
 
-            string XmlFolderName = "xml"; // xml폴더 이름
+            string XmlFolderName = "xml\\"; // xml폴더 이름
             string path = Path.Combine(FInd_XmlDirectory.ToString(), XmlFolderName); // 하위폴더 xml 폴더 붙이기
             Console.WriteLine(path);
 
@@ -93,7 +93,8 @@ namespace Xml_PapagoAPI
 
             }
 
-            xmlDocument.Save(path + FileName);
+            //xmlDocument.Save(path + FileName);
+            xmlDocument.Save(path + "test_result.xml");
             
 
         }
